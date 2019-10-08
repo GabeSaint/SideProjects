@@ -1,6 +1,3 @@
-a.anchor {
-    display: block !important;
-    position: relative !important;
-    top: -800px !important;
-    visibility: hidden !important;
-}
+.anchor {
+    padding-top: 90px !important; 
+        }
