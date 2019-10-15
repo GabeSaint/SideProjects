@@ -11,7 +11,7 @@ function corjump(letter)
 
 }
 
-function jump(alpha)
+function jump(letter)
 {
     var url = location.href;               //Save down the URL without hash.
     location.href = "#"+alpha;                 //Go to the target element.
