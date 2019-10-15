@@ -1,24 +1,22 @@
-//<a href="javascript:corJump(letter)">A</a>
+//<a href="javascript:corJump('A')">A</a>
 
-function corjump(letter)
+function corJump(letter)
 {
 
           // Jump to Anchor
           jump(letter);
 
           // Small wait, fix screen position
-          setTimeout(scrollWinAlpha, 5000) //
+          setTimeout(scrollWinAlpha, 5) //
 
 }
 
 function jump(letter)
 {
-    var url = location.href;               //Save down the URL without hash.
-    location.href = "#"+alpha;                 //Go to the target element.
-    //history.replaceState(null,null,url);   //Don't like hashes. Changing it back.
+location.href = "#"+letter;
 }
 
 function scrollWinAlpha() 
 {
-  window.scrollTo(0, 150);
+  window.scrollBy(0, -150);
 }
