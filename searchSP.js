@@ -2,7 +2,7 @@
 {
 
 
-    var patt = /\<(.*?)\>/; // Regex to remove all but the list item
+    var patt = /\<(.*?)\>/g; // Regex to remove all but the list item
 
 
     var input = document.getElementById('searchbar').value
