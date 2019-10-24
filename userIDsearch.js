@@ -22,3 +22,5 @@ function searchKeyPress(e)
     }
     return true;
 }
+
+$('#userIDform').find('br').remove();
