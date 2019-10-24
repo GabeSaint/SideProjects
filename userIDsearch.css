@@ -1,3 +1,8 @@
 input, select, textarea { 
-  width: 50% !important;
+  width: 200px !important;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"], .button {
+  background-color: #ffd200;
+  color: #003466;
 }
