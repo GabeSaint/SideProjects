@@ -12,25 +12,25 @@
     {
 
       var header6 = document.getElementsByClassName('departmentHeader');
-      var backButton = document.getElementsByClassName('back');
+      //var backButton = document.getElementsByClassName('back');
       document.getElementById('letters').style.display = 'none';
 
       for (var i = 0; i < header6.length; i++)
       {
       header6[i].style.display = 'none';
-      backButton[i].style.display = 'none';
+      //backButton[i].style.display = 'none';
       }
 
     }
     else{
       var header6 = document.getElementsByClassName('departmentHeader');
-      var backButton = document.getElementsByClassName('back');
+      //var backButton = document.getElementsByClassName('back');
       document.getElementById('letters').style.display = 'block';
 
       for (var i = 0; i < header6.length; i++)
       {
       header6[i].style.display = 'block';
-      backButton[i].style.display = 'block';
+      //backButton[i].style.display = 'block';
       }
 
     }
