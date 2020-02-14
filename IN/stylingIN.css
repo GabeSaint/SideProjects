@@ -25,8 +25,12 @@
         .modal-footer {
             padding: 2px 16px;
             background-color: #5cb85c;
-            color: white;
           }
+
+          h3.modal-footer {
+              color: white;
+              width: 60%;
+            }
 
         /* The Close Button */
         .close {
