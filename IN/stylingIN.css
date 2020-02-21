@@ -30,7 +30,10 @@
             background-color: #003466;
             color: white;
           }
+h3 {
 
+  color: white;
+}
 
         /* The Close Button */
         .close {
