@@ -47,8 +47,4 @@
                 modalparent[event.target.getAttribute('data-index')].style.display = "none";
             }
 
-            // OLD CODE
-            if (event.target === modal) {
-                modal.style.display = "none";
-            }
         };
