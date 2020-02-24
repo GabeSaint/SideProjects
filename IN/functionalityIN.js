@@ -1,5 +1,4 @@
 // Get the modal
-
         var modalparent = document.getElementsByClassName("modal_multi");
 
         // Get the button that opens the modal
